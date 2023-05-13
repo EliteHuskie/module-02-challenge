@@ -1,25 +1,28 @@
+/* style.css - is what determines the 'style' of the website and pages that are linked */
+
+/* Selects all elements and applies settings based on below */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Applies background color to body */
 body {
     background-color: white;
 }
-
+/* Header element uses the below settings */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: turquoise;
     color: white;
 }
-
+/* Applies to the Header <h1> element */
 .header h1 {
     display: inline-block;
     font-size: 30px;
 }
-
+/* Navigation element settings */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -27,26 +30,26 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
 }
-
+/* Navigation <ul> setting */
 .header nav ul {
     list-style-type: none;
 }
-
+/* Navigation <li> settings for display + margin-left */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Anchor elements get a specific color and text-decoration setting + font-weight */
 a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-
+/* Paragraphs have a font-size of 16px */
 p {
     font-size: 16px;
 }
-
+/* Class that will center elements */
 .center {
     display: block;
     margin-left: auto;
@@ -54,14 +57,14 @@ p {
     width: 20%;
     color: white;
 }
-
+/* Content with this class will have the below properties */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 300px;
     padding-top: 10px;
 }
-
+/* Using this class will have the below settings */
 .about-me {
     margin-left: 100px;
     margin-right: 200px;
@@ -71,7 +74,7 @@ p {
     background-color: turquoise;
     color: white;
 }
-
+/* Using this class with elements will have the below effects */
 .my-work {
     margin-left: 100px;
     margin-right: 200px;
@@ -81,7 +84,7 @@ p {
     background-color: turquoise;
     color: white;
 }
-
+/* Using the class below will have the following properties */
 .contact-me {
     margin-left: 100px;
     margin-right: 200px;
@@ -91,7 +94,7 @@ p {
     background-color: turquoise;
     color: white;
 }
-
+/* Footer at bottom of page will have the below properties */
 .footer {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -99,7 +102,7 @@ p {
     color: white;
     text-align: center;
 }
-
+/* Footer at bottom of page will have the below properties for the heading */
 .footer h2 {
     font-size: 20px;
 }
