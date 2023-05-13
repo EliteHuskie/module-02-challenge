@@ -1,30 +1,33 @@
+/* style.css - is what determines the 'style' of the website and pages that are linked */
+
+/* Selects all elements and applies settings based on below */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Applies properties to .items class */
 .items {
     display: flex;
     justify-content: space-between;
   }
-
+/* Applies background color to body */
 body {
     background-color: #44DEE3;
 }
-
+/* Header element uses the below settings */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #C5C8C9;
     color: #F4FDFF;
 }
-
+/* Applies to the Header <h1> element */
 .header h1 {
     display: inline-block;
     font-size: 30px;
 }
-
+/* Navigation element settings */
 .header nav {
     padding-top: 5px;
     margin-right: 20px;
@@ -32,26 +35,26 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
 }
-
+/* Navigation <ul> setting */
 .header nav ul {
     list-style-type: none;
 }
-
+/* Navigation <li> settings for display + margin-left */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Anchor elements get a specific color and text-decoration setting + font-weight */
 a {
     color: #F4FDFF;
     text-decoration: none;
     font-weight: bold;
 }
-
+/* Paragraphs have a font-size of 16px */
 p {
     font-size: 16px;
 }
-
+/* Class that will center elements */
 .center {
     padding-top: 10px;
     display: block;
@@ -60,14 +63,14 @@ p {
     width: 20%;
     color: #F4FDFF;
 }
-
+/* Content with this class will have the below properties */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 300px;
     padding-top: 10px;
 }
-
+/* Using this class will have the below settings */
 .about-me {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -75,7 +78,7 @@ p {
     margin-right: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* Applies settings to paragraph about-me */
 p.about-me {
     top: -150px;
     right: -350px;
@@ -85,7 +88,7 @@ p.about-me {
     font-weight: bold;
     color: #F4FDFF;
 }
-
+/* Using this class with elements will have the below effects */
 .my-work {
     margin-top: -80px;
     margin-bottom: 10px;
@@ -94,7 +97,7 @@ p.about-me {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* Applies below properties to challenge-01 class */
 .challenge-01 {
     margin-top: -232px;
     margin-bottom: 10px;
@@ -103,16 +106,16 @@ p.about-me {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* Applies background color + display to .brightness */
 .brightness {
     background-color: #C5C8C9;
     display: inline-block;
 }
-
+/* Hover over setting for image */
 .brightness img:hover {
     opacity: .5;
 }
-
+/* Using the class below will have the following properties */
 .contact-me {
     margin-top: 15px;
     margin-bottom: -35px;
@@ -120,7 +123,7 @@ p.about-me {
     margin-right: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* Properties for list contact-me */
 li.contact-me {
     top: -130px;
     right: -350px;
@@ -130,7 +133,7 @@ li.contact-me {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #F4FDFF;
 }
-
+/* Footer at bottom of page will have the below properties */
 .footer {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -138,7 +141,7 @@ li.contact-me {
     color: #F4FDFF;
     text-align: center;
 }
-
+/* Footer at bottom of page will have the below properties for the heading */
 .footer h2 {
     font-size: 20px;
 }
