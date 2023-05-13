@@ -6,16 +6,21 @@
     padding: 0;
     margin: 0;
 }
+/* Applies properties to .items class */
+.items {
+    display: flex;
+    justify-content: space-between;
+  }
 /* Applies background color to body */
 body {
-    background-color: white;
+    background-color: #44DEE3;
 }
 /* Header element uses the below settings */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: turquoise;
-    color: white;
+    background-color: #C5C8C9;
+    color: #F4FDFF;
 }
 /* Applies to the Header <h1> element */
 .header h1 {
@@ -24,7 +29,7 @@ body {
 }
 /* Navigation element settings */
 .header nav {
-    padding-top: 15px;
+    padding-top: 5px;
     margin-right: 20px;
     float: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,7 +46,7 @@ body {
 }
 /* Anchor elements get a specific color and text-decoration setting + font-weight */
 a {
-    color: white;
+    color: #F4FDFF;
     text-decoration: none;
     font-weight: bold;
 }
@@ -51,11 +56,12 @@ p {
 }
 /* Class that will center elements */
 .center {
+    padding-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-    color: white;
+    color: #F4FDFF;
 }
 /* Content with this class will have the below properties */
 .content {
@@ -66,43 +72,97 @@ p {
 }
 /* Using this class will have the below settings */
 .about-me {
-    margin-left: 100px;
-    margin-right: 200px;
-    padding: 10px;
-    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    margin-right: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: turquoise;
-    color: white;
+}
+/* Applies settings to paragraph about-me */
+p.about-me {
+    top: -150px;
+    right: -350px;
+    position: relative;
+    inline-size: 49%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #F4FDFF;
 }
 /* Using this class with elements will have the below effects */
 .my-work {
-    margin-left: 100px;
-    margin-right: 200px;
+    margin-top: -80px;
+    margin-bottom: 10px;
+    margin-left: 240px;
+    margin-right: 50px;
     padding: 10px;
-    height: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: turquoise;
-    color: white;
+}
+/* Applies below properties to challenge-01 class */
+.challenge-01 {
+    margin-top: -232px;
+    margin-bottom: 10px;
+    margin-left: 585px;
+    margin-right: 0px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Applies background color + display to .brightness */
+.brightness {
+    background-color: #C5C8C9;
+    display: inline-block;
+}
+/* Hover over setting for image */
+.brightness img:hover {
+    opacity: .5;
 }
 /* Using the class below will have the following properties */
 .contact-me {
-    margin-left: 100px;
-    margin-right: 200px;
-    padding: 10px;
-    height: 100px;
+    margin-top: 15px;
+    margin-bottom: -35px;
+    margin-left: 250px;
+    margin-right: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: turquoise;
-    color: white;
+}
+/* Properties for list contact-me */
+li.contact-me {
+    top: -130px;
+    right: -350px;
+    padding: 10px;
+    position: relative;
+    inline-size: 49%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F4FDFF;
 }
 /* Footer at bottom of page will have the below properties */
 .footer {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: turquoise;
-    color: white;
+    background-color: #C5C8C9;
+    color: #F4FDFF;
     text-align: center;
 }
 /* Footer at bottom of page will have the below properties for the heading */
 .footer h2 {
     font-size: 20px;
 }
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+    header {
+      background: #44DEE3;
+    }
+  }
+  
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #C5C8C9;
+    }
+  }
+  
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    img {
+      background-color: #44DEE3;
+    }
+  }

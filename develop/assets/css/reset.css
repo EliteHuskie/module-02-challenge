@@ -1,3 +1,4 @@
+
 /* reset.css - a list of rules that 'reset' all of the default browser styles */
 
 /* All elements and applies settings based on below */
@@ -6,11 +7,11 @@
     padding: 0;
     box-sizing: border-box;
   }
- /* Applies below to HTML */ 
+/* Applies below to HTML */ 
   html {
     height: 100%;
   }
- /* The following is applied to the body */ 
+/* The following is applied to the body */ 
   body {
     min-height: 100%;
     line-height: 1;
@@ -20,13 +21,13 @@
   h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
   }
- /* Properties getting the below values */ 
+/* Properties getting the below values */ 
   input, select, option, optgroup, textarea, button,
   pre, code {
     font-size: 100%;
     font-family: inherit;
   }
- /* Ordered and unordered list get the following list-style */ 
+/* Ordered and unordered list get the following list-style */ 
   ol, ul {
     list-style: none;
   }
