@@ -106,6 +106,15 @@ p.about-me {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* Applies below properties to project-01 class */
+.project-01 {
+    margin-top: -232px;
+    margin-bottom: 10px;
+    margin-left: 1100px;
+    margin-right: 0px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 /* Applies background color + display to .brightness */
 .brightness {
     background-color: #C5C8C9;
