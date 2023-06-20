@@ -11,7 +11,7 @@ Personal Portfolio webpage that displays three sections (About Me, My Work and C
 ## Usage
 Open your browser and visit the Direct URL that has been provided below. Once on the webpage, have a look around and see the various sections + work that is available for viewing.
 
-Direct URL: https://elitehuskie.github.io/module-02-challenge/
+Direct URL: https://elitehuskie.github.io/module-02-personal-portfolio-webpage/
 
 ## License
 Using standard MIT license
