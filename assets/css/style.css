@@ -14,6 +14,7 @@
 /* Applies background color to body */
 body {
     background-color: #44DEE3;
+    height: fit-content;
 }
 /* Header element uses the below settings */
 .header {
@@ -110,7 +111,17 @@ p.about-me {
 .project-01 {
     margin-top: -232px;
     margin-bottom: 10px;
-    margin-left: 1100px;
+    margin-left: 1000px;
+    margin-right: 0px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Applies below properties to project-02 class */
+.project-02 {
+    margin-top: -25px;
+    margin-bottom: 10px;
+    margin-left: 1000px;
     margin-right: 0px;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -126,7 +137,7 @@ p.about-me {
 }
 /* Using the class below will have the following properties */
 .contact-me {
-    margin-top: 15px;
+    margin-top: 33px;
     margin-bottom: -35px;
     margin-left: 250px;
     margin-right: 10px;
@@ -134,9 +145,9 @@ p.about-me {
 }
 /* Properties for list contact-me */
 li.contact-me {
-    top: -130px;
+    top: -125px;
     right: -350px;
-    padding: 10px;
+    padding: 0px;
     position: relative;
     inline-size: 49%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
